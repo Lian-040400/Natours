@@ -1,12 +1,13 @@
 {
   "dependencies": {
+    "live-server": "^1.2.2",
     "node-sass": "^9.0.0"
   },
   "name": "natours",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "",
   "license": "ISC",
