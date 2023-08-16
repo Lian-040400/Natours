@@ -128,5 +128,22 @@
     &_button:hover &_icon::after{
         top: 1rem;
     }
+
+
+&_checkbox:checked + &_button &_icon{
+    background-color: transparent;
+}
+
+
+&_checkbox:checked + &_button &_icon::before{
+    top: 0;
+   transform: rotate(135deg);
+}
+
+&_checkbox:checked + &_button &_icon::after{
+    top: 0;
+    transform: rotate(-135deg);
+}
+
 }
 
